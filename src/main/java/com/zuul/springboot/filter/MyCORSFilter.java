@@ -20,12 +20,6 @@ import org.apache.log4j.Logger;
  * @date 2018年6月4日
  * @time 上午10:17:45
  */
-/**
- * CORS过滤器 完成跨域请求
- * 
- * @author yangyiwei
- *
- */
 @WebFilter(filterName = "myCORSFilter", urlPatterns = "/*")
 public class MyCORSFilter implements Filter {
 
