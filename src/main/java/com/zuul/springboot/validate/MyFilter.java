@@ -1,7 +1,5 @@
 package com.zuul.springboot.validate;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
 import java.io.PrintWriter;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,6 +18,12 @@ import lombok.extern.slf4j.Slf4j;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
+/**
+ * zuul自带的过滤器
+ * @author yangyiwei
+ * @date 2018年9月25日
+ * @time 下午1:40:55
+ */
 @Component
 @Slf4j
 public class MyFilter extends ZuulFilter {
