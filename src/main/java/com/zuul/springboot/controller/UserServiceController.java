@@ -23,7 +23,7 @@ public class UserServiceController {
 	@RequestMapping("/login")
 	public JSONObject login(String userName, String password) {
 		return restTemplate.getForObject(
-				"http://chat-user-service/user/info/login?name=" + userName + "&password=" + password,
+				"http://chat-user-service/user/info/login?userName=" + userName + "&password=" + password,
 				JSONObject.class);
 
 	}

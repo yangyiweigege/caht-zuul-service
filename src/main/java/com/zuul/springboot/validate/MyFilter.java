@@ -19,7 +19,7 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 /**
- * zuul自带的过滤器
+ * zuul自带的过滤器 只能针对映射请求 即api/xxx 普通请求无法过滤到
  * @author yangyiwei
  * @date 2018年9月25日
  * @time 下午1:40:55

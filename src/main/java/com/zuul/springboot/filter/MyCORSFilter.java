@@ -20,7 +20,7 @@ import org.apache.log4j.Logger;
  * @date 2018年6月4日
  * @time 上午10:17:45
  */
-@WebFilter(filterName = "myCORSFilter", urlPatterns = "/*")
+//@WebFilter(filterName = "myCORSFilter", urlPatterns = "/*")
 public class MyCORSFilter implements Filter {
 
 	private final static Logger logger = Logger.getLogger(MyCORSFilter.class);
