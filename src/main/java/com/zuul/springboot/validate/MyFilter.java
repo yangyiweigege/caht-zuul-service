@@ -31,6 +31,7 @@ public class MyFilter extends ZuulFilter {
 	@Autowired
 	private JedisPool jedisPool;
 
+
 	@Override
 	public Object run() {
 		log.info("执行网关拦截器......");
